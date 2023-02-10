@@ -6,6 +6,9 @@
 
 sudo apt-get install git -y
 
+cd
+cd Downloads/
+
 git clone https://github.com/rushikparmar/magic_installation
 
 cd magic_installation/
