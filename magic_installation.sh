@@ -25,6 +25,10 @@ sudo apt-get install magic -y
 echo "=============================================="
 echo "----2002a Library Installation----"
 echo "=============================================="
+
+cd
+cd Downloads/
+
 wget opencircuitdesign.com/magic/archive/2002a.tar.gz
 tar -zxf 2002a.tar.gz
 mv 2002a current
@@ -36,6 +40,7 @@ echo "----Copying extracted library to magic folder----"
 echo "=============================================="
 
 sudo cp -r --verbose current/ /usr/lib/x86_64-linux-gnu/magic/sys/
+sudo rm -rf current
 
 echo "=============================================="
 echo "----Installation Complete----"
