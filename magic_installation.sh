@@ -26,8 +26,8 @@ echo "=============================================="
 echo "----2002a Library Installation----"
 echo "=============================================="
 
-cd
-cd Downloads/
+#cd
+#cd Downloads/
 
 wget opencircuitdesign.com/magic/archive/2002a.tar.gz
 tar -zxf 2002a.tar.gz
